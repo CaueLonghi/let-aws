@@ -1,6 +1,6 @@
 services:
   back-let:
-    build: /backend
+    build: ./backend
     ports:
       - 8800:8800
     expose:
@@ -9,7 +9,7 @@ services:
       - let-network
 
   front-let:
-    build: /frontend
+    build: ./frontend
     ports:
       - 3000:3000
     expose:
