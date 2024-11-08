@@ -11,7 +11,7 @@ COPY . ./
 RUN pip install -r requirements.txt
 
 # Exponha a porta 8800
-EXPOSE 8000
+EXPOSE 8800
 
 # Defina o comando padrão para iniciar o aplicativo usando nodemon
 CMD ["python", "backend.py"]
