@@ -44,4 +44,4 @@ async def predict(file: UploadFile):
 
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run(app, host='3.83.124.226', port=8800)
+    uvicorn.run(app, host='3.83.124.226', port=8000)
